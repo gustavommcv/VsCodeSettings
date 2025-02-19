@@ -2,6 +2,10 @@
 
 This repository contains my personal Visual Studio Code settings (`settings.json`) and a curated list of recommended extensions to enhance productivity and the overall development experience.
 
+![image](https://github.com/user-attachments/assets/3d94d021-cde1-44b3-b499-31af6bb0230e)
+
+![image](https://github.com/user-attachments/assets/e403b4c3-5c60-429c-82c7-0230f0225156)
+
 ## 🔧 Included Settings
 
 The `settings.json` file includes custom configurations for:
