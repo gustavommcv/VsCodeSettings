@@ -1,0 +1,132 @@
+{
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// CSS and SCSS settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "css.lint.important": "warning", // Warn on the use of !important in CSS
+  "scss.lint.important": "warning", // Warn on the use of !important in SCSS
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Javascript and Typescript settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  // "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// File management settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "files.exclude": {
+    ".vscode": true,
+    "**/.git": false,
+    "/.DS_Store": false,
+    "/.hg": false,
+    "/.svn": false,
+    "/CVS": false,
+    "/Thumbs.db": false
+  },
+  "files.autoSave": "afterDelay", // Autosave files after a delay
+  "files.insertFinalNewline": true, // Insert newline at the end of files
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Breadcrumbs settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "breadcrumbs.enabled": false, // Disable breadcrumbs path below tabs
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Editor settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // Font and appearance settings
+  "editor.fontFamily": "'Fira Code'", // Font for the editor
+  // "editor.fontFamily": "'JetBrains Mono'", // Font for the editor
+  "editor.fontLigatures": true, // Enable font ligatures (e.g., for coding symbols)
+  "editor.lineHeight": 1.8, // Line height for better readability
+  "editor.fontSize": 14, // Font size in the editor
+  "editor.wordWrap": "on", // Enable word wrapping
+
+  // Line and highlighting settings
+  "editor.renderLineHighlight": "gutter", // Highlight the line number gutter
+  "editor.semanticHighlighting.enabled": false, // Disable semantic highlighting
+
+  // Scrollbar and minimap settings
+  "editor.scrollbar.vertical": "hidden", // Hide vertical scrollbar
+  "editor.scrollbar.horizontal": "hidden", // Hide horizontal scrollbar
+  "editor.scrollbar.verticalScrollbarSize": 0, // Set vertical scrollbar size to zero
+  "editor.minimap.size": "proportional", // Proportional minimap size
+
+  // Cursor settings
+  "editor.cursorBlinking": "phase", // Blinking style for the cursor
+  "editor.cursorStyle": "line", // Cursor appearance as a line
+
+  // Allows vs code to format files (line 12)
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Terminal settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // Font and profile settings
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Font for terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell", // Default terminal profile
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Explorer settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "explorer.compactFolders": false, // Do not group folders with a single child
+  "explorer.autoReveal": true, // Automatically reveal files in the explorer
+  "explorer.confirmPasteNative": false, // No confirmation for native paste
+  "explorer.confirmDragAndDrop": false, // No confirmation for drag and drop
+  "explorer.confirmDelete": false, // No confirmation for delete
+
+  // File nesting patterns for cleaner explorer
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslin*, package-lock*, yarn.lock, pnpm-lock.yaml, bun.lockb, prettier*, vite*, tsconfig*",
+    "tailwind.config*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*",
+    "Dockerfile": ".docker*"
+  },
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Workbench settings (VSCode UI)
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "workbench.colorTheme": "Min Dark", // Theme for VSCode
+  "workbench.editor.labelFormat": "short", // Short labels for open files
+  "workbench.statusBar.visible": false, // Hide the status bar
+  "workbench.layoutControl.enabled": false, // Disable layout control
+  "workbench.iconTheme": "symbols", // Icon theme for files
+  "workbench.productIconTheme": "el-vsc-v1-icons", // Product icons theme
+  "workbench.sideBar.location": "right", // Place sidebar on the right
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Window settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "window.commandCenter": false, // Disable the command center
+  "window.menuBarVisibility": "toggle", // Toggle menu bar visibility
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Security settings
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "security.workspace.trust.untrustedFiles": "open", // Open untrusted files with a prompt
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //// Extensions and custom configurations
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // Code Runner extension
+  "code-runner.clearPreviousOutput": true, // Clear previous output before running code
+
+  // Power Mode extension
+  "powermode.enabled": true, // Enable power mode (animated effects while typing)
+  "powermode.combo.location": "off", // Disable combo counter
+  "powermode.combo.counterEnabled": "hide", // Hide combo counter
+  "powermode.shake.intensity": 1, // Minimal shake effect
+  "powermode.shake.enabled": false, // Disable shake effect
+
+  // Disable code lens for Docker Compose files
+  "[dockercompose]": {
+    "editor.codeLens": false
+  },
+  "workbench.startupEditor": "none",
+  "liveServer.settings.CustomBrowser": "firefox",
+  "glassit.alpha": 235
+}
