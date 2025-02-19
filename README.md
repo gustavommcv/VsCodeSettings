@@ -20,7 +20,7 @@ Follow these steps to apply these settings to your VS Code environment:
 Copy the contents of `settings.json` to your own VS Code settings file, located at:
 
 - **Windows**: `%APPDATA%\Code\User\settings.json`
-- **macOS**: `$HOME/Library/Application Support/Code/User/settings.json`
+- **MacOS**: `$HOME/Library/Application Support/Code/User/settings.json`
 - **Linux**: `$HOME/.config/Code/User/settings.json`
 
 ### 2️⃣ Install Recommended Extensions
@@ -94,8 +94,14 @@ Install the recommended extensions listed below for full compatibility with thes
 
 To install all the recommended extensions at once, use the `extensions.txt` file included in this repository. Run the following command in your terminal:
 
+- **MacOS** & **Linux**:
 ```sh
 cat extensions.txt | xargs -L 1 code --install-extension
+```
+
+- **Windows**:
+```powershell
+Get-Content .\extensions.txt | ForEach-Object { code --install-extension $_ }
 ```
 
 This will install each extension listed in `extensions.txt` automatically.
