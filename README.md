@@ -17,11 +17,11 @@ Follow these steps to apply these settings to your VS Code environment:
 
 ### 1️⃣ Copy `settings.json`
 
-Copy the contents of `settings.json` to your own VS Code settings file, located at:
+Copy the contents of `settings.json` & `keybindings.json` to your own VS Code settings file, located at:
 
-- **Windows**: `%APPDATA%\Code\User\settings.json`
-- **MacOS**: `$HOME/Library/Application Support/Code/User/settings.json`
-- **Linux**: `$HOME/.config/Code/User/settings.json`
+- **Windows**: `%APPDATA%\Code\User\`
+- **MacOS**: `$HOME/Library/Application Support/Code/User/`
+- **Linux**: `$HOME/.config/Code/User/`
 
 ### 2️⃣ Install Recommended Extensions
 
