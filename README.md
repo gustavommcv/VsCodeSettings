@@ -39,6 +39,9 @@ Copy the contents of `settings.json` and `keybindings.json` to your VS Code sett
 
 To install the recommended extensions automatically, use the `extensions.txt` file. Run the following command in the terminal:
 
+> **⚠ Note:** If you're using a different version of VS Code, such as **VS Code Insiders** or **Code - OSS**, the command may differ. For example, replace `code` with `code-insiders` or `code-oss` accordingly.
+
+
 - **MacOS & Linux**:
 
 ```sh
