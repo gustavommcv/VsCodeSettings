@@ -1,4 +1,5 @@
 adpyke.codesnap
+angular.ng-template
 bierner.markdown-mermaid
 bradlc.vscode-tailwindcss
 christian-kohler.npm-intellisense
@@ -13,16 +14,18 @@ esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 formulahendry.code-runner
 ganeshgaddhe.ice-age-theme
+github.copilot
+github.copilot-chat
 graphql.vscode-graphql-syntax
 hoovercj.vscode-power-mode
-icrawl.discord-vscode
+leonardssh.vscord
 mechatroner.rainbow-csv
 miguelsolorio.min-theme
 miguelsolorio.symbols
 mikestead.dotenv
 ms-azuretools.vscode-docker
 ms-vscode-remote.remote-containers
-ms-vscode-remote.remote-wsl
+ms-vscode.cmake-tools
 ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes

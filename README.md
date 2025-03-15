@@ -1,10 +1,11 @@
-# VS Code Settings
+# 🚀 VS Code Settings
 
-This repository contains my personal Visual Studio Code settings (`settings.json`) and a curated list of recommended extensions to enhance productivity and the overall development experience.
+This repository contains my personalized Visual Studio Code settings (`settings.json`) and a curated list of recommended extensions to enhance productivity and overall development experience.
 
-![image](https://github.com/user-attachments/assets/3d94d021-cde1-44b3-b499-31af6bb0230e)
+![VS Code](https://github.com/user-attachments/assets/3d94d021-cde1-44b3-b499-31af6bb0230e)
+![VS Code Terminal](https://github.com/user-attachments/assets/e403b4c3-5c60-429c-82c7-0230f0225156)
 
-![image](https://github.com/user-attachments/assets/e403b4c3-5c60-429c-82c7-0230f0225156)
+---
 
 ## 🔧 Included Settings
 
@@ -15,23 +16,46 @@ The `settings.json` file includes custom configurations for:
 - **Explorer**: File and folder organization settings for better navigation.
 - **Workbench**: UI customizations, including themes and layout preferences.
 
+---
+
 ## 📌 Installation Guide
 
-Follow these steps to apply these settings to your VS Code environment:
+### ⚠️ Prerequisite
 
-### 1️⃣ Copy `settings.json`
+For the best experience, install the **JetBrains Mono** font on your system:  
+🔗 [Download JetBrains Mono](https://www.jetbrains.com/pt-br/lp/mono/)
 
-Copy the contents of `settings.json` & `keybindings.json` to your own VS Code settings file, located at:
+### 📂 Copy `settings.json`
+
+Copy the contents of `settings.json` and `keybindings.json` to your VS Code settings folder:
 
 - **Windows**: `%APPDATA%\Code\User\`
 - **MacOS**: `$HOME/Library/Application Support/Code/User/`
 - **Linux**: `$HOME/.config/Code/User/`
 
-### 2️⃣ Install Recommended Extensions
+---
 
-Install the recommended extensions listed below for full compatibility with these settings.
+## 📦 Install Recommended Extensions
 
-## 📦 Recommended Extensions
+To install the recommended extensions automatically, use the `extensions.txt` file. Run the following command in the terminal:
+
+- **MacOS & Linux**:
+
+```sh
+cat extensions.txt | xargs -L 1 code --install-extension
+```
+
+- **Windows**:
+
+```powershell
+Get-Content .\extensions.txt | ForEach-Object { code --install-extension $_ }
+```
+
+This will install each extension listed in `extensions.txt` automatically.
+
+---
+
+## 📦 Included Extensions
 
 ### 🔹 Essential Extensions
 
@@ -76,7 +100,7 @@ Install the recommended extensions listed below for full compatibility with thes
 - **C/C++ Extension Pack** (`ms-vscode.cpptools-extension-pack`): A collection of extensions for C/C++ development.
 - **C/C++ Themes** (`ms-vscode.cpptools-themes`): Themes for C/C++ development.
 
-### 🎨 Fun & Productivity
+### Useless extensions & almost useless extensions 🎨
 
 - **Power Mode** (`hoovercj.vscode-power-mode`): Add fun visual effects while typing.
 - **Discord Presence** (`icrawl.discord-vscode`): Show your coding activity on Discord.
@@ -94,23 +118,11 @@ Install the recommended extensions listed below for full compatibility with thes
 
 ---
 
-## 📥 Install Extensions from a File
-
-To install all the recommended extensions at once, use the `extensions.txt` file included in this repository. Run the following command in your terminal:
-
-- **MacOS** & **Linux**:
-```sh
-cat extensions.txt | xargs -L 1 code --install-extension
-```
-
-- **Windows**:
-```powershell
-Get-Content .\extensions.txt | ForEach-Object { code --install-extension $_ }
-```
-
-This will install each extension listed in `extensions.txt` automatically.
-
 ## 📌 Notes
 
 - Feel free to customize `settings.json` to better fit your personal workflow.
 - Contributions and suggestions are always welcome!
+
+---
+
+# 🌟 Enjoy your enhanced VS Code experience! 🚀

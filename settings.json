@@ -36,8 +36,7 @@
   //// Editor settings
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // Font and appearance settings
-  "editor.fontFamily": "'Fira Code'", // Font for the editor
-  // "editor.fontFamily": "'JetBrains Mono'", // Font for the editor
+  "editor.fontFamily": "'JetBrains Mono'", // Font for the editor
   "editor.fontLigatures": true, // Enable font ligatures (e.g., for coding symbols)
   "editor.lineHeight": 1.8, // Line height for better readability
   "editor.fontSize": 14, // Font size in the editor
@@ -55,7 +54,7 @@
 
   // Cursor settings
   "editor.cursorBlinking": "phase", // Blinking style for the cursor
-  "editor.cursorStyle": "line", // Cursor appearance as a line
+  "editor.cursorStyle": "line-thin", // Cursor appearance as a line
 
   // Allows vs code to format files (line 12)
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -67,7 +66,7 @@
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // Font and profile settings
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Font for terminal
-  "terminal.integrated.defaultProfile.windows": "PowerShell", // Default terminal profile
+  // "terminal.integrated.defaultProfile.windows": "PowerShell", // Default terminal profile
 
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //// Explorer settings
@@ -128,5 +127,8 @@
   },
   "workbench.startupEditor": "none",
   "liveServer.settings.CustomBrowser": "firefox",
-  "glassit.alpha": 235
+  "glassit.alpha": 255,
+  "symbols.hidesExplorerArrows": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "c-cpp-compile-run.c-linker-flags": "-std=c++20"
 }
