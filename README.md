@@ -1,9 +1,10 @@
 # 🚀 VS Code Settings
 
-This repository contains my personalized Visual Studio Code settings (`settings.json`) and a curated list of recommended extensions to enhance productivity and overall development experience.
+This repository contains my personalized Visual Studio Code settings (`settings.json`) and a curated list of recommended extensions to enhance productivity and overall !
+development experience.
 
-![VS Code](https://github.com/user-attachments/assets/3d94d021-cde1-44b3-b499-31af6bb0230e)
-![VS Code Terminal](https://github.com/user-attachments/assets/e403b4c3-5c60-429c-82c7-0230f0225156)
+![VS Code](https://github.com/user-attachments/assets/79a8b974-4ec6-4c0d-931f-45bf345455ba)
+![VS Code Terminal](https://github.com/user-attachments/assets/f38a753e-f158-4d8f-9e34-1b4a30b69947)
 
 ---
 
