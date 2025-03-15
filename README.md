@@ -36,6 +36,29 @@ Copy the contents of `settings.json` and `keybindings.json` to your VS Code sett
 
 ---
 
+### 📂 Copy `keybindings.json`  
+
+If you want to open the terminal in another tab instead of the bottom panel, copy `keybindings.json` to the VS Code settings folder:  
+
+To change the shortcut, just edit your `keybindings.json` file:
+
+```json
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.createTerminalEditor"
+    }
+]
+```
+
+---
+
 ## 📦 Install Recommended Extensions
 
 To install the recommended extensions automatically, use the `extensions.txt` file. Run the following command in the terminal:
@@ -59,7 +82,7 @@ This will install each extension listed in `extensions.txt` automatically.
 
 ---
 
-## 📦 Included Extensions
+<!-- ## 📦 Included Extensions
 
 ### 🔹 Essential Extensions
 
@@ -120,7 +143,7 @@ This will install each extension listed in `extensions.txt` automatically.
 
 - **Markdown Mermaid** (`bierner.markdown-mermaid`): Render Mermaid diagrams in Markdown files.
 
----
+--- -->
 
 ## 📌 Notes
 
@@ -129,4 +152,4 @@ This will install each extension listed in `extensions.txt` automatically.
 
 ---
 
-# 🌟 Enjoy your enhanced VS Code experience! 🚀
+# 🌟 Enjoy your enhanced VS Code experience!
