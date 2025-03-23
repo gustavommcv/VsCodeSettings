@@ -38,7 +38,7 @@
   "editor.scrollbar.vertical": "hidden", // Hide vertical scrollbar
   "editor.scrollbar.horizontal": "hidden", // Hide horizontal scrollbar
   "editor.scrollbar.verticalScrollbarSize": 0, // Set vertical scrollbar size to zero
-  "editor.minimap.size": "fill", // Minimap fills the available space
+  "editor.minimap.size": "proportional", // Minimap fit/fills/proportional the available space
 
   //// Cursor settings
   "editor.cursorBlinking": "phase", // Set cursor blinking style
