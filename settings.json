@@ -1,7 +1,7 @@
 {
   //////// CSS and SCSS settings
-  "css.lint.important": "warning",               // Warn on the use of !important in CSS
-  "scss.lint.important": "warning",              // Warn on the use of !important in SCSS
+  "css.lint.important": "warning", // Warn on the use of !important in CSS
+  "scss.lint.important": "warning", // Warn on the use of !important in SCSS
 
   //////// JavaScript and TypeScript settings
   "javascript.updateImportsOnFileMove.enabled": "always", // Automatically update imports when moving files
@@ -9,98 +9,73 @@
 
   //////// File management settings
   "files.exclude": {
-    ".vscode": true,                             // Hide the .vscode folder
-    "**/.git": false,                            // Keep .git folder visible
-    "**/.DS_Store": false,                       // Keep macOS system files visible
-    "**/.hg": false,                             // Keep Mercurial version control folder visible
-    "**/.svn": false,                            // Keep SVN version control folder visible
-    "**/CVS": false,                             // Keep CVS version control folder visible
-    "**/Thumbs.db": false                        // Keep Windows thumbnail cache files visible
+    ".vscode": true, // Hide the .vscode folder
+    "**/.git": false, // Keep .git folder visible
+    "**/.DS_Store": false, // Keep macOS system files visible
+    "**/.hg": false, // Keep Mercurial version control folder visible
+    "**/.svn": false, // Keep SVN version control folder visible
+    "**/CVS": false, // Keep CVS version control folder visible
+    "**/Thumbs.db": false // Keep Windows thumbnail cache files visible
   },
-  "files.autoSave": "afterDelay",                // Automatically save files after a delay
+  "files.autoSave": "afterDelay", // Automatically save files after a delay
 
   //////// Breadcrumbs settings
-  "breadcrumbs.enabled": false,                  // Disable breadcrumbs path below tabs
+  "breadcrumbs.enabled": false, // Disable breadcrumbs path below tabs
 
   //////// Editor settings
   //// Font and appearance settings
-  "editor.fontFamily": "'JetBrains Mono'",       // Set editor font
-  "editor.fontLigatures": true,                  // Enable font ligatures (e.g., coding symbols)
-  "editor.lineHeight": 1.8,                      // Increase line height for better readability
-  "editor.fontSize": 14,                         // Set font size
-  "editor.wordWrap": "on",                       // Enable word wrapping
+  "editor.fontFamily": "'JetBrains Mono'", // Set editor font
+  "editor.fontLigatures": true, // Enable font ligatures (e.g., coding symbols)
+  "editor.lineHeight": 1.8, // Increase line height for better readability
+  "editor.fontSize": 14, // Set font size
+  "editor.wordWrap": "on", // Enable word wrapping
 
   //// Line and highlighting settings
-  "editor.renderLineHighlight": "all",           // Highlight the entire line, gutter, or both
-  "editor.semanticHighlighting.enabled": false,  // Disable semantic highlighting
+  "editor.renderLineHighlight": "all", // Highlight the entire line, gutter, or both
+  "editor.semanticHighlighting.enabled": false, // Disable semantic highlighting
 
   //// Scrollbar and minimap settings
-  "editor.scrollbar.vertical": "hidden",         // Hide vertical scrollbar
-  "editor.scrollbar.horizontal": "hidden",       // Hide horizontal scrollbar
-  "editor.scrollbar.verticalScrollbarSize": 0,   // Set vertical scrollbar size to zero
-  "editor.minimap.size": "fill",                 // Minimap fills the available space
+  "editor.scrollbar.vertical": "hidden", // Hide vertical scrollbar
+  "editor.scrollbar.horizontal": "hidden", // Hide horizontal scrollbar
+  "editor.scrollbar.verticalScrollbarSize": 0, // Set vertical scrollbar size to zero
+  "editor.minimap.size": "fill", // Minimap fills the available space
 
   //// Cursor settings
-  "editor.cursorBlinking": "phase",              // Set cursor blinking style
-  "editor.cursorStyle": "line-thin",             // Use a thin line cursor
+  "editor.cursorBlinking": "phase", // Set cursor blinking style
+  "editor.cursorStyle": "line-thin", // Use a thin line cursor
 
   //// Formatting settings
   "editor.defaultFormatter": "esbenp.prettier-vscode", // Set Prettier as the default formatter
-  "editor.formatOnSave": true,                   // Automatically format the file on save
-  "editor.formatOnPaste": true,                  // Automatically format pasted code
+  "editor.formatOnSave": true, // Automatically format the file on save
+  "editor.formatOnPaste": true, // Automatically format pasted code
 
   //////// Terminal settings
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Set terminal font
 
   //////// Explorer settings
-  "explorer.compactFolders": false,              // Disable compact folder grouping
-  "explorer.autoReveal": true,                   // Automatically reveal files in the explorer
-  "explorer.confirmPasteNative": false,          // No confirmation when pasting files
-  "explorer.confirmDragAndDrop": false,          // No confirmation when dragging and dropping files
-  "explorer.confirmDelete": false,               // No confirmation before deleting files
+  "explorer.compactFolders": false, // Disable compact folder grouping
+  "explorer.autoReveal": true, // Automatically reveal files in the explorer
+  "explorer.confirmPasteNative": false, // No confirmation when pasting files
+  "explorer.confirmDragAndDrop": false, // No confirmation when dragging and dropping files
+  "explorer.confirmDelete": false, // No confirmation before deleting files
 
   //////// Workbench settings (VSCode UI)
-  "workbench.colorTheme": "Min Dark",            // Set VS Code theme
-  "workbench.editor.labelFormat": "short",       // Use short labels for open files
-  "workbench.statusBar.visible": false,          // Hide the status bar
-  "workbench.layoutControl.enabled": false,      // Disable layout control
-  "workbench.iconTheme": "symbols",              // Set file icon theme
+  "workbench.colorTheme": "Min Dark", // Set VS Code theme
+  "workbench.editor.labelFormat": "short", // Use short labels for open files
+  "workbench.statusBar.visible": false, // Hide the status bar
+  "workbench.layoutControl.enabled": false, // Disable layout control
+  "workbench.iconTheme": "symbols", // Set file icon theme
   "workbench.productIconTheme": "el-vsc-v1-icons", // Set product icon theme
-  "workbench.sideBar.location": "right",         // Move sidebar to the right
-  "workbench.startupEditor": "none",             // Start without an editor tab open
+  "workbench.sideBar.location": "right", // Move sidebar to the right
+  "workbench.startupEditor": "none", // Start without an editor tab open
 
   //////// Window settings
-  "window.commandCenter": false,                 // Disable the command center
-  "window.menuBarVisibility": "toggle",          // Hide the menu bar unless Alt is pressed
+  "window.commandCenter": false, // Disable the command center
+  "window.menuBarVisibility": "toggle", // Hide the menu bar unless Alt is pressed
 
   //////// Security settings
-  "security.workspace.trust.untrustedFiles": "open", // Open untrusted files with a prompt
+  "security.workspace.trust.untrustedFiles": "open",
+  "chat.commandCenter.enabled": false // Open untrusted files with a prompt
 
   //////// Extensions and custom configurations
-  //// Code Runner extension
-  "code-runner.clearPreviousOutput": true,       // Clear previous output before running new code
-
-  //// Power Mode extension
-  "powermode.enabled": true,                     // Enable power mode (animated typing effects)
-  "powermode.combo.location": "off",             // Disable combo counter
-  "powermode.combo.counterEnabled": "hide",      // Hide combo counter
-  "powermode.shake.intensity": 1,                // Set minimal shake effect
-  "powermode.shake.enabled": false,              // Disable shake effect
-
-  //// Disable code lens for Docker Compose files
-  "[dockercompose]": {
-    "editor.codeLens": false                      // Disable inline code lens for Docker Compose
-  },
-
-  //// Live Server settings
-  "liveServer.settings.CustomBrowser": "firefox", // Use Firefox as the default browser
-
-  //// Transparency effect for GlassIt extension
-  "glassit.alpha": 255,                          // Set transparency level
-
-  //// Explorer icons customization
-  "symbols.hidesExplorerArrows": false,          // Show explorer folder arrows
-
-  //// C++ Compilation Flags
-  "c-cpp-compile-run.c-linker-flags": "-std=c++20" // Use C++20 standard for compilation
 }
