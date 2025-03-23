@@ -1,5 +1,4 @@
 elanandkumar.el-vsc-product-icon-theme
 esbenp.prettier-vscode
-formulahendry.auto-rename-tag
 miguelsolorio.min-theme
 miguelsolorio.symbols
