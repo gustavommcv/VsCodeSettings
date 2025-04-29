@@ -1,4 +1,7 @@
+christian-kohler.path-intellisense
 elanandkumar.el-vsc-product-icon-theme
 esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+icrawl.discord-vscode
 miguelsolorio.min-theme
 miguelsolorio.symbols

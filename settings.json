@@ -1,81 +1,83 @@
 {
   //////// CSS and SCSS settings
-  "css.lint.important": "warning", // Warn on the use of !important in CSS
-  "scss.lint.important": "warning", // Warn on the use of !important in SCSS
+  "css.lint.important": "warning",
+  "scss.lint.important": "warning",
 
   //////// JavaScript and TypeScript settings
-  "javascript.updateImportsOnFileMove.enabled": "always", // Automatically update imports when moving files
-  "typescript.updateImportsOnFileMove.enabled": "always", // Same as above, but for TypeScript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
 
   //////// File management settings
   "files.exclude": {
-    ".vscode": true, // Hide the .vscode folder
-    "**/.git": false, // Keep .git folder visible
-    "**/.DS_Store": false, // Keep macOS system files visible
-    "**/.hg": false, // Keep Mercurial version control folder visible
-    "**/.svn": false, // Keep SVN version control folder visible
-    "**/CVS": false, // Keep CVS version control folder visible
-    "**/Thumbs.db": false // Keep Windows thumbnail cache files visible
+    ".vscode": true,
+    "**/.git": false,
+    "**/.DS_Store": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false,
+    "**/Thumbs.db": false
   },
-  "files.autoSave": "afterDelay", // Automatically save files after a delay
+  "files.autoSave": "afterDelay",
 
   //////// Breadcrumbs settings
   "breadcrumbs.enabled": false, // Disable breadcrumbs path below tabs
 
   //////// Editor settings
   //// Font and appearance settings
-  "editor.fontFamily": "'JetBrains Mono'", // Set editor font
-  "editor.fontLigatures": true, // Enable font ligatures (e.g., coding symbols)
-  "editor.lineHeight": 1.8, // Increase line height for better readability
-  "editor.fontSize": 14, // Set font size
-  "editor.wordWrap": "on", // Enable word wrapping
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.8,
+  "editor.fontSize": 14,
+  "editor.wordWrap": "on",
 
   //// Line and highlighting settings
-  "editor.renderLineHighlight": "all", // Highlight the entire line, gutter, or both
-  "editor.semanticHighlighting.enabled": false, // Disable semantic highlighting
+  "editor.renderLineHighlight": "all",
+  "editor.semanticHighlighting.enabled": false,
 
   //// Scrollbar and minimap settings
-  "editor.scrollbar.vertical": "hidden", // Hide vertical scrollbar
-  "editor.scrollbar.horizontal": "hidden", // Hide horizontal scrollbar
-  "editor.scrollbar.verticalScrollbarSize": 0, // Set vertical scrollbar size to zero
-  "editor.minimap.size": "proportional", // Minimap fit/fills/proportional the available space
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.minimap.size": "proportional",
 
   //// Cursor settings
-  "editor.cursorBlinking": "phase", // Set cursor blinking style
-  "editor.cursorStyle": "line-thin", // Use a thin line cursor
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "line-thin",
 
   //// Formatting settings
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // Set Prettier as the default formatter
-  "editor.formatOnSave": true, // Automatically format the file on save
-  "editor.formatOnPaste": true, // Automatically format pasted code
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
 
   //////// Terminal settings
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", // Set terminal font
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
 
   //////// Explorer settings
-  "explorer.compactFolders": false, // Disable compact folder grouping
-  "explorer.autoReveal": true, // Automatically reveal files in the explorer
-  "explorer.confirmPasteNative": false, // No confirmation when pasting files
-  "explorer.confirmDragAndDrop": false, // No confirmation when dragging and dropping files
-  "explorer.confirmDelete": false, // No confirmation before deleting files
+  "explorer.compactFolders": false,
+  "explorer.autoReveal": true,
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
 
   //////// Workbench settings (VSCode UI)
-  "workbench.colorTheme": "Min Dark", // Set VS Code theme
-  "workbench.editor.labelFormat": "short", // Use short labels for open files
-  "workbench.statusBar.visible": false, // Hide the status bar
-  "workbench.layoutControl.enabled": false, // Disable layout control
-  "workbench.iconTheme": "symbols", // Set file icon theme
-  "workbench.productIconTheme": "el-vsc-v1-icons", // Set product icon theme
-  "workbench.sideBar.location": "right", // Move sidebar to the right
-  "workbench.startupEditor": "none", // Start without an editor tab open
+  "workbench.colorTheme": "Min Dark",
+  "workbench.editor.labelFormat": "short",
+  "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "el-vsc-v1-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
 
   //////// Window settings
-  "window.commandCenter": false, // Disable the command center
-  "window.menuBarVisibility": "toggle", // Hide the menu bar unless Alt is pressed
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
 
   //////// Security settings
   "security.workspace.trust.untrustedFiles": "open",
-  "chat.commandCenter.enabled": false // Open untrusted files with a prompt
+  "chat.commandCenter.enabled": false,
+  "accessibility.verbosity.inlineChat": false,
+  "workbench.editor.empty.hint": "hidden"
 
   //////// Extensions and custom configurations
 }
